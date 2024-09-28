@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Fredoka", sans-serif;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background: rgb(204,77,171);
+    background: linear-gradient(35deg, rgba(204,77,171,1) 0%, rgba(133,81,190,1) 100%);
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 2rem;
+}
+button{
+    height: 60px;
+    border-radius: 10px;
+    margin: 0px 25px;
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    border: 3px solid white;
+    color: white;
+}
+button img{
+    padding: 10px;
+    height: 90%;
+}
+button h3{
+    padding: 10px;
+}
+.para{
+    width: 40%;
+    padding: 20px;
+    overflow: hidden;
+}
+.para p{
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    border: 2px solid blanchedalmond;
+    padding: 30px;
+    outline: none;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1rem;
+}
+.para .input img{
+    position: absolute;
+    width: 30px;
+    right: 15px;
+    bottom: 15px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
