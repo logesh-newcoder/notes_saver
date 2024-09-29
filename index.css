@@ -86,7 +86,6 @@ button h3{
     .para{
         width: 75%;
         padding: 20px;
-        position: relative;
     }
     .para .input{
         width: 100%;
@@ -100,7 +99,6 @@ button h3{
         font-size: 0.8rem;
     }
     .para .input img{
-        position: absolute;
         width: 20px;
         right: 10px;
         bottom: 10px;
