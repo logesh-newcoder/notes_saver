@@ -41,9 +41,9 @@ button h3{
 .para{
     width: 55%;
     padding: 20px;
-    position: relative;
 }
 .para p{
+    position: relative;
     width: 100%;
     min-height:50px;
     border: 2px solid blanchedalmond;
